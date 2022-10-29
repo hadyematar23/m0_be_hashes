@@ -44,12 +44,13 @@
 # # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-# email_info = {"address" => "hadyematar@gmail.com",
-#               "date" => "23/05/2022",
-#               "subject" => "Welcome to Turing",
-#               "sender" => "admin@turing.edu",
-#               "encrypted" => true 
-# }
+email_info = {
+  "address" => "hadyematar@gmail.com",
+  "date" => "23/05/2022",
+  "subject" => "Welcome to Turing",
+  "sender" => "admin@turing.edu",
+  "encrypted" => true 
+}
 
 # # Write code that prints your email hash to the terminal.
 
@@ -86,22 +87,22 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # that relate to each individual Instagram post:
 
 
-# posts = [
-#   {
-#     image_src: "./images/beach.png",
-#     caption: "At the beach with my besties",
-#     timestamp: "4:37 PM August 13, 2019",
-#     number_likes: 0,
-#     comments: []
-#   }, 
-#   {
-#     image_src: "./images/holiday-party.png",
-#     caption: "What a great holiday party omg",
-#     timestamp: "11:37 PM December 31, 2019",
-#     number_likes: 13,
-#     comments: []
-#   }
-# ]
+posts = [
+  {
+    image_src: "./images/beach.png",
+    caption: "At the beach with my besties",
+    timestamp: "4:37 PM August 13, 2019",
+    number_likes: 0,
+    comments: []
+  }, 
+  {
+    image_src: "./images/holiday-party.png",
+    caption: "What a great holiday party omg",
+    timestamp: "11:37 PM December 31, 2019",
+    number_likes: 13,
+    comments: []
+  }
+]
 
 # p posts
 # p posts[0]
@@ -118,21 +119,27 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # Then, print the email Array to the Terminal.
 
 many_email_info = [
-  {"address" => "hadyematar@gmail.com",
-  "date" => "23/05/2022",
-  "subject" => "Welcome to Turing",
-  "sender" => "admin@turing.edu",
-  "encrypted" => true }, 
-  {"address" => "arnold@bds.org",
-  "date" => "15/12/2021",
-  "subject" => "Child Protective Law",
-  "sender" => "ACS@acs.org",
-  "encrypted" => false },
-  {"address" => "joebiden@biden.org",
-  "date" => "21/10/2018",
-  "subject" => "Welcome to the White house",
-  "sender" => "whitehouse.gov",
-  "encrypted" => true }
+  {
+    "address" => "hadyematar@gmail.com",
+    "date" => "23/05/2022",
+    "subject" => "Welcome to Turing",
+    "sender" => "admin@turing.edu",
+    "encrypted" => true 
+  }, 
+  {
+    "address" => "arnold@bds.org",
+    "date" => "15/12/2021",
+    "subject" => "Child Protective Law",
+    "sender" => "ACS@acs.org",
+    "encrypted" => false 
+  },
+  {
+    "address" => "joebiden@biden.org",
+    "date" => "21/10/2018",
+    "subject" => "Welcome to the White house",
+    "sender" => "whitehouse.gov",
+    "encrypted" => true 
+  }
 ]
 
 puts many_email_info
